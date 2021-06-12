@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+html, body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+body{
+    padding: 20px;
+    max-width: 1000px;3
+    margin: 0 auto;
+}
+#contents{
+    margin-top: 40px;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+
+.img_wrap{
+    width: 200px;
+    margin: 20px auto;
+}
+
+img{
+    width: 100%;
+}
+
+#lists_wrap{
+    display: flex;
+    margin: 40px 0;
+}
+
+.box{
+    width: 50%;
+    padding: 0 20px;
+}
+.box h2{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.list{
+    border: 2px solid #9B6323;
+    padding: 15px;
+}
+
+.list li{
+    padding: 5px 0;
+}
+
+.list li + li{
+    border-top: 1px solid #9B6323;
+}
+
+.list li:first-child{
+    padding-top: 0;
+}
+
+.list li:last-child{
+    padding-bottom: 0;
+}
+
+table{
+    margin: 10px auto;
+    border: 2px solid #27BB34
+}
+
+th, td{
+    border: 2px solid #27BB34;
+    padding: 8px 16px;
+}
+
+tr:first-child th:first-child{
+    background-color: #27BB34;
+    color: #fff;
+    vertical-align: middle;
+}
+
+th{
+    background-color: rgba(39, 139, 52, 0.4);
+}
+
+.note{
+    text-align: right;
+    font-size: 0.9em;
+}
+
+#price_table_wrap{
+    display: inline-block;
+}
+
+@media screen and (max-width: 375px){
+    h1{
+        font-size: 1.5em;
+    }
+}
