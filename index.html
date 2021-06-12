@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>ようこそLa La Landへ</title>
+
+    <meta name="description" content="LaLaLandです。">
+    <!--フォント-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!--外部Stylesheet-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="./css/firstpage.css">
+
+    <!--JQuery-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+</head>
+
+<body>
+    <input type="checkbox" class="check slide" id="checked-slide">
+    <label class="switch slide" for="checked-slide"></label>
+    <div class="gatefold">
+        <div id='contents'>
+            <h1><img id='title' src="./images/title.jpg" alt="タイトル"></h1>
+
+            <div id='slide'>
+                <ul class="slick_slide">
+                    <li><img src="./images/highway.jpg" alt="イメージ"></li>
+                    <li><img src="./images/someone.jpeg" alt="イメージ"></li>
+                    <li><img src="./images/couple.jpg" alt="イメージ"></li>
+                    <li><img src="./images/breaking.jpg" alt="イメージ"></li>
+                    <li><img src="./images/bus.jpg" alt="イメージ"></li>
+                </ul>
+            </div>
+
+            <div class="char">
+                <h1><strong>LA LA LAND</strong>とは？</h1><br>
+                <hr>
+                <h2><strong>素敵な映画</strong>です。</h2>
+                <h1>どんな<strong>映画</strong>？</h1><br>
+                <hr>
+                <h2>
+                    私が人生で初めて<strong>3回</strong>見た映画です。<br><br>
+                    ライアンゴズリング、エマストーン主演のミュージカル映画で、2016年に公開されました。<br><br>
+                    2017年アカデミー賞では<strong>史上最多14ノミネート</strong>、<strong>6部門の受賞</strong>を果たしました。<br><br>
+                    以下のグラフからも、この映画の素晴らしさが伺えるでしょう。<br><br>
+                    <div class="figure">
+                        <img src="./images/figure.gif" alt="グラフ">
+                    </div><br>
+                </h2>
+                <h1>何が<strong>素敵</strong>なの？</h1><br>
+                <hr>
+                <ul>
+                    <li>ストーリーが<strong>素敵</strong></li><br>
+                    <h3>
+                        ピアニスト、女優というそれぞれの夢を追う2人が描かれています。<br><br>
+                        胸は高鳴り、心は踊り、<strong>ラストは震えます</strong>。
+                    </h3><br>
+                    <li>色使いが<strong>素敵</strong></li><br>
+                    <h3>
+                        衣装を初め、<strong>画面全体</strong>がおしゃれな色合いでいっぱいです。<br><br>
+                        自分もおしゃれになった気分になり、いつもの景色もカラフルに彩られるでしょう。
+                    </h3><br>
+                    <li>曲が<strong>素敵</strong></li><br>
+                    <h3>
+                        見終わった後に劇中歌が聞きたすぎてまた見てしまうほど、<strong>恐ろしい中毒性</strong>があります。<br><br>
+                        気を付けてください。
+                    </h3><br>
+                    <li>キャラクターが<strong>素敵</strong></li><br>
+                    <h3>
+                        <strong>夢</strong>を追う主人公2人に心を鷲掴みにされます。<br><br>
+                        冒頭の高速道路渋滞のように行き詰まる2人、そしてその姿に惹き込まれるあなたの姿が目に浮かびます。
+                    </h3><br><br>
+                </ul>
+                <h1>選んだ<strong>未来</strong>と、選ばなかった<strong>道</strong></h1><br>
+                <hr>
+                <h2>ラスト、2人の表情に、何を感じますか？どんな未来を想像しますか？<br><br>教えてほしいので、<strong>是非見てください</strong>。</h2>
+            </div>
+            <div id="button">
+                <p>
+                <div class="accordion">
+                    <div class="trigger">
+                        <span>LA LA LAND を視聴する　▼</span>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu_detail">
+                            <a href="https://www.youtube.com/watch?v=0pdqf4P9MB8" target="_blank">予告編　▶</a>
+                        </li>
+                        <li class="menu_detail">
+                            <a href="https://www.amazon.co.jp/-/en/%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%B4%E3%82%BA%E3%83%AA%E3%83%B3%E3%82%B0/dp/B0714LYZ3G"
+                                target="_blank">本　編　▶
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="game" href="./game.html" target="_blank">LA LA LAND ゲームに挑戦　▶</a>
+                </p>
+            </div>
+            <a id="pagetop" href="#">TOP</a>
+        </div>
+    </div>
+    <!--js-->
+    <script src="./js/harukiScript.js"></script>
+</body>
+
+</html>
